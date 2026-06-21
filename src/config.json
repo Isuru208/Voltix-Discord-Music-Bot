@@ -1,15 +1,15 @@
 {
-  "token": "MTUxNzc3ODk3MzA1NDk5NjUwMA.GYnPbi.4g_NT5R16g0qi0YGBQrKbRLGMlG7dJaFQdmW6E",
-  "clientSecret": "nTcUYPXvck13FJKJNdPudb6kaQY2w1hb",
+  "token": "YOUR_DISCORD_BOT_TOKEN",
+  "clientSecret": "YOUR_DISCORD_CLIENT_SECRET",
   "redirectUri": "http://localhost:3000/api/auth/callback",
   "prefix": ".",
   "ownerID": [
-    "Isuru Thejan"
+    "YOUR_DISCORD_USER_ID"
   ],
-  "SpotifyID": "85aab1d51a174aad9eed6d7989f530e6",
-  "SpotifySecret": "b2ad05aa725e434c88776a1be8eab6c",
-  "LastFmKey": "892ec4bdf3b1ea3aa74353988aaa4ee1",
-  "LastFmSecret": "ac670032b9e8f4f96734e8f413b9488c",
+  "SpotifyID": "YOUR_SPOTIFY_CLIENT_ID",
+  "SpotifySecret": "YOUR_SPOTIFY_CLIENT_SECRET",
+  "LastFmKey": "YOUR_LASTFM_API_KEY",
+  "LastFmSecret": "YOUR_LASTFM_API_SECRET",
   "color": "#00D4FF",
   "logs": "",
   "node_source": "spsearch",
