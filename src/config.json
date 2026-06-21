@@ -1,0 +1,54 @@
+{
+  "token": "YOUR_DISCORD_BOT_TOKEN",
+  "clientSecret": "YOUR_DISCORD_CLIENT_SECRET",
+  "redirectUri": "http://localhost:3000/api/auth/callback",
+  "prefix": ".",
+  "ownerID": [
+    "YOUR_DISCORD_USER_ID"
+  ],
+  "SpotifyID": "YOUR_SPOTIFY_CLIENT_ID",
+  "SpotifySecret": "YOUR_SPOTIFY_CLIENT_SECRET",
+  "LastFmKey": "YOUR_LASTFM_API_KEY",
+  "LastFmSecret": "YOUR_LASTFM_API_SECRET",
+  "color": "#00D4FF",
+  "logs": "",
+  "node_source": "spsearch",
+  "links": {
+    "support": "https://discord.gg/aerox",
+    "invite": "https://discord.gg/aerox",
+    "guild": "https://discord.gg/aerox"
+  },
+  "Webhooks": {
+    "black": "",
+    "player_create": "",
+    "player_delete": "",
+    "guild_join": "",
+    "guild_leave": "",
+    "cmdrun": ""
+  },
+  "nodes": [
+    {
+      "name": "Voltix-AneFaiz",
+      "url": "lava-v4.millohost.my.id:443",
+      "auth": "https://discord.gg/mjS5J2K3ep",
+      "secure": true
+    },
+    {
+      "name": "Voltix-TriniumHost",
+      "url": "lavalink-v4.triniumhost.com:443",
+      "auth": "free",
+      "secure": true
+    }
+  ],
+  "node_options": {
+    "moveOnDisconnect": true,
+    "resume": true,
+    "resumeTimeout": 60,
+    "resumeByLibrary": true,
+    "reconnectTries": 15,
+    "reconnectInterval": 10,
+    "restTimeout": 60000,
+    "voiceConnectionTimeout": 30000,
+    "userAgent": "Voltix"
+  }
+}
